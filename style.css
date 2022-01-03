@@ -1,0 +1,355 @@
+body {
+    font-family: "calibri";
+    font-weight: bold;
+    font-size: 1vw;
+    background-image: url(images/background.png);
+    background-position:center;
+}
+
+h2 {
+    font-size: 2vw;
+    color: red;
+}
+
+#galleryContent h2 {
+    font-size: 3vw;
+    color: red;
+}
+
+.content p {
+    font-size: 1.3vw;
+    color: #4b4b4b;
+}
+
+#indexContent {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:50%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+}
+
+li {
+    display: inline;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: purple;
+    margin-top: 3%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    color: #4b4b4b;
+    font-size: 1.2vw;
+}
+
+nav {
+    text-align: center;
+}
+
+#contactDetails {
+    grid-column: 1/5;
+    font-size: 1vw;
+    margin-left: 20%;
+    color: white;
+}
+
+#footerNav {
+    grid-column: 5/13;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2vw;
+}
+
+#aboutUs {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-column: 1/13;
+    background-color: #fafadc;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 95%;
+}
+
+#aboutUsText {
+    grid-column: 1/9;
+    margin-right: 5%;
+}
+
+#aboutUsImg {
+    grid-column: 9/13;
+    max-width: 100%;
+}
+
+#aboutFounder {
+    grid-column: 1/13;
+    grid-template-columns: auto auto auto;
+    display: grid;
+    margin-top: 5%;
+    background-color: #fafadc;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 95%;
+}
+
+#founderText {
+    grid-column: 1/9;
+    margin-right: 5%;
+}
+
+#imageFounder {
+    grid-column: 11/13;
+    max-width: 100%;
+    height: auto;
+}
+
+#galleryContent {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cakeList img {
+    max-width: 95%;
+}
+
+.cakeList {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 95%;
+}
+
+.galleryDiv {
+    background-color: #fafadc;
+}
+
+#classesContent {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 85%;
+    background-color: #fafadc;
+}
+
+#ourClasses {
+    grid-column: 1/8;
+    margin-right: 5%;
+}
+
+#classImg {
+    grid-column: 8/13;
+    width: 100%;
+}
+
+#contactContent {
+    display: grid;
+    grid-template-columns: auto;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 85%;
+    background-color: #fafadc;
+}
+
+.inputBox {
+    width: 50%;
+}
+
+textarea {
+    width: 50%;
+    resize: none;
+}
+
+#button {
+    max-width:10%;
+    font-size: 1vw;
+}
+
+#contactUs {
+    grid-row: 3/9;
+    margin-left: 20%;
+}
+.content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headerNav {
+    width:90%;
+    max-height: 150%;
+    background-color: purple;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+    margin-bottom: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#currentPage {
+    background-color: white;
+    color:purple;
+}
+
+@media only screen and (max-width:992px) {
+    .cakeList {
+        grid-template-columns: auto auto;
+    }
+    .cakeList img {
+        max-height: 95%;
+    }
+    .content p {
+        font-size: 2.2vw;
+    }
+    li {
+        font-size: 2.2vw;
+    }
+    h2 {
+        font-size: 3vw;
+    }
+    #contactDetails {
+        grid-column: 1/4;
+        font-size: 1.5vw;
+        margin-left: 10%;
+        color: white;
+    }
+    label {
+        font-size: 2vw;
+    }
+    #button {
+        max-width: 25%;
+        font-size: 1.6vw;
+    }
+    #imageFounder, #classImg {
+        margin-top: 12%;
+        max-width: 110%;
+    }
+    #aboutUsText {
+        grid-column: 1/8;
+    }
+    #aboutUsImg {
+        grid-column: 8/13;
+        margin-top: 12%;
+    }
+    #galleryContent h2 {
+        font-size: 4vw;
+    }
+    #contactDetails {
+        font-size: 1.8vw;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .logo {
+        display: none;
+    }
+    #headerNav {
+        position: fixed;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        max-height: 200%;
+    }
+    .content {
+        margin-top: 10%;
+        width: 95%;
+    }
+    li {
+        font-size: 3.5vw;
+    }
+    #footerNav {
+        display: none;
+    }
+    #imageFounder, #classImg, #aboutUsImg {
+        display: none;
+    }
+    .cakeList {
+        grid-template-columns: auto;
+    }
+    h2 {
+        font-size: 4.5vw;
+    }
+    #galleryContent h2 {
+        font-size: 5.5vw;
+    }
+    footer {
+        width: 95%;
+    }
+    .content p {
+        font-size: 3.5vw;
+    }
+    label {
+        font-size: 3.2vw;
+    }
+    #classesContent {
+        width: 90%;
+    }
+    #contactContent {
+        width: 90%;
+    }
+    .inputBox {
+        width: 70%;
+    }
+    textarea {
+        width: 70%;
+    }
+    #button {
+        max-width: 35%;
+        font-size: 2.5vw;
+    }
+    #contactDetails {
+        font-size: 3vw;
+    }
+}
